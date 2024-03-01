@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(./Asse/dark-cloth-with-plate-waffle.jpg);
+    background-size: cover;
+
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding:30px;
+}
+
+.logo{
+    font-size: 38px;
+    color: #ffff;
+    /* color: orange; */
+
+}
+
+.nav{
+    position: relative;
+    left: -100px;
+}
+a{
+    font-size: 20px;
+    padding: 5px 15px;
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.search{
+    font-size: 20px;
+    color: #ffff;
+}
+.search i{
+    padding: 5px 20px;
+}
+
+
+.Header{
+    display: flex;
+    justify-content:space-between;
+padding: 150px 200px;
+    align-items: center;
+}
+
+.right{
+    width: 350px;
+    height: 350px;
+    background-image: url(./Asse/food.jpg);
+    background-size: cover;
+    border-radius: 395px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.right::before{
+    width: 350px;
+    height: 340px;
+    border: 2px solid white;
+    content: '';
+    position: absolute;
+    border-radius: 430px;
+   
+
+}
+
+.left p:nth-child(1){
+    color: #ffff;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-style: italic;
+
+}
+.left h1{
+    font-size: 80px;
+    color: #ffff;
+}
+.left p:nth-child(3){
+    color: orange;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.left button{
+    width: 150px;
+    height: 20px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: #ffff;
+    margin: 20px 0px;
+}
+/************Socialmedia**********/
+
+.socialMedia{
+    position: absolute;
+    right: 0;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width:35px; 
+    height: 200px;
+    background-color: white;
+    font-size: 25px;;
+
+}
+.socialMedia i:hover{
+    color: orange;
+}
+/*************bottom*********/
+#food1,#food2{
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 0px 20px;
+
+}
+#food1{
+    
+    background-image: url('./Asse/food1.png')
+}
+
+#food2{
+    background-image: url('./Asse/food.jpg')
+}
+
+.menu{
+    display: flex;
+    /* padding:0px 0px 140px 440px; */
+    /* margin: 0px 100px; */
+    margin-top: -150px;
+    margin-left: 129px;
+}
